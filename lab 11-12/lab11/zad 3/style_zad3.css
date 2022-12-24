@@ -1,0 +1,66 @@
+body{
+    background-color: silver;
+}
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-image: url('/zajecia_html/lab 11-12/lab11/zad 3/book-svgrepo-com.svg');
+}
+table,td, th{
+    border: 1px solid rgb(192, 192, 192);
+    border-collapse: collapse;
+    border-spacing: auto;
+}
+th{
+    background-color: rgb(103, 143, 236);
+    color: white;
+    font-family: Arial;
+    border: 1px solid silver;
+    border-bottom: 2px solid rgb(30, 75, 147);
+    font-size: 75%;
+    padding: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(141, 171, 205);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(156, 190, 218);
+}
+#przycisk {
+    background-color: rgba(33, 159, 39, 0.848);
+    position: relative;left:220px;top:10px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(25, 123, 30, 0.848);
+}
+fieldset{
+    background-color: rgb(239, 238, 238);
+    width: 288px;
+    height: 180px;
+    line-height: 25px;
+    border: 1px solid rgb(192, 192, 192);
+}
+#email:focus{
+    border: 3px solid red;
+    background:rgb(156, 190, 218);
+}
+#Namesurname:focus{
+    border: 3px solid red;
+    background: rgb(156, 190, 218);
+}
+#placowka{
+    float: right;
+    padding-right: 18px;
+}
+th#lewe{
+    border-top-left-radius: 14px;
+}
+th#prawe{
+    border-top-right-radius: 14px;
+}

@@ -1,0 +1,12 @@
+div
+{
+    text-align: center;
+}
+#zegar
+{
+    font-size: 50px;
+    color: rgb(0, 17, 250);
+}
+body{
+    background-color: silver;
+}

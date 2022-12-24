@@ -1,0 +1,48 @@
+body{
+    background-color: silver;
+}
+#first{
+    border: 5px dashed;
+    border-color: purple;
+    background-color:beige;
+    padding: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.srodek{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#blue{
+    background-color: lightblue;
+    padding: auto;
+    width: 600px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto
+}
+#red{
+    background-color: rgb(232, 98, 98);
+    padding: auto;
+    width: 500px;
+    height: 205px;
+    margin-left: auto;
+    margin-right: auto
+}
+#green{
+    background-color:rgb(121, 255, 141);
+    padding: auto;
+    width: 400px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto
+}
+#lightblue{
+    background-color: rgb(196, 237, 250);
+    padding-bottom: 10px;
+    width: 200px;
+    height: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}

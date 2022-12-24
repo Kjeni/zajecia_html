@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+#imie{
+    color: red;
+    font-weight: 800;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+#podkresl{
+    text-decoration: underline;
+}
+#skresl{
+    text-decoration: line-through;
+}
+.wazne{
+    color:blueviolet
+}

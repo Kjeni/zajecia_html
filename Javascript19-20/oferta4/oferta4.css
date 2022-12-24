@@ -1,0 +1,42 @@
+body {
+    display:flex;
+    align-items:strech;
+}
+#edycjaoferty {
+    width:20%;
+}
+#spisofert {
+    width:80%;
+}
+
+input, label, button {
+    display: block;
+}
+label, button {
+    margin-top:20px;
+}
+
+.oferta {
+    padding: 10px;
+    border:1px solid gray;
+    width:200px;
+    font-size:14px;
+    margin:5px;
+    float:left;
+}
+span {
+    display:block;
+}
+.marka, .model {
+    font-size:18px;
+    font-weight: bolder;
+}
+
+.usun {
+    color:red;
+    font-weight: bolder;
+}
+.edycja {
+    color:green;
+    font-weight: bolder;
+}

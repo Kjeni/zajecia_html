@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad 3</title>
+    <meta name="description" content="Zadanie na laboratoria">
+    <meta name="author" content="232948">
+    <link rel="Stylesheet" type="text/css" href="style_zad3.css">
+</head>
+<body>
+    <h1>Warsztaty poetyckie</h1>
+    <p>W tym roku mamy zamiar zorganizować i przeprowadzić warsztaty poetyckie.</p>
+    <p>Warsztaty poetyckie:</p>
+    <ul>
+    <li>Perspektywa poetycka</li>
+    <li>Wojna w oczach Baczyńskiego</li>
+    <li>Poematy odnalezione i poeci-outsiderzy</li>
+    </ul>
+    <table id="table">
+        <tr><th id="lewe"></th><th>Kraków</th><th>Wrocław</th><th id="prawe">Gdańsk</th></tr>
+        <tr><td><strong>Perspektywa poetycka</strong></td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td></tr>
+        <tr><td><strong>Wojna w oczach Baczyńskiego</strong></td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td></tr>
+        <tr><td><strong>Poematy odnalezione i poeci-outsiderzy</strong></td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td></tr>
+        <tr><td><strong>Naturalna śmierć: Granica poznania</strong></td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td><td>Sobota, 4 lutego 2012<br> 11:00-14:00</td></tr>
+    </table>
+    <div id="panellogowania">
+    <form>
+        <fieldset>
+        <legend>Rejestracja uczestnictwa</legend>
+        <label for="Namesurname">Imie i nazwisko:</label><br>
+        <input type="text" id="Namesurname" name=Namesurname><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email"><br>
+        <label for="placowka">Najbliższa placówka:</label>
+        <select name="placowka" id="placowka">
+            <option value="Kraków">Kraków</option>
+            <option value="Wrocław">Wrocław</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+        <label for="członkostwo">Czy jesteś członkiem klubu?</label>
+        <input type="radio" id="członkostwo" name="tak" value="Tak">Tak
+        <input type="radio" id="członkostwonie" name="nie" value="Nie">Nie
+    </fieldset>
+    </form>
+    <input type="button" value="Rejestracja" id="przycisk">
+    </div>
+</body>
+</html>

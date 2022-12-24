@@ -1,0 +1,19 @@
+h1{
+    color: green;
+}
+#pierwszy{
+    color: black;
+    font-family: Arial;
+}
+#drugi{
+    color: black;
+    font-family: Calibri;
+}
+p {
+    color: red;
+    text-indent: 2cm;
+}
+body{
+    background: url("mozart.jpg");
+    background-size: 50%;
+}

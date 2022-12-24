@@ -1,0 +1,18 @@
+label {
+    font-size: 50px;
+}
+input{
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+}
+input {
+    margin-bottom: 40px;
+}
+div {
+    font-size: 50px;
+    color: red
+}
+p#tak {
+    font-size: 50px;
+}

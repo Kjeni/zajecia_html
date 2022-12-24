@@ -1,0 +1,72 @@
+<!doctype html>
+	<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab 6</title>
+		<meta name="description" content="Zadanie na laboratoria">
+		<meta name="author" content="232948">
+	</head>
+	<body>
+		<form action="mailto:mail@stud.usz.edu.pl" method="post" autocomplete="off">
+			<input type="hidden" name="subject" value="Temat wiadomości" />
+			<input type="hidden" name="to" value="twój@adres-email.pl" />
+			<input type="hidden" name="id">
+			<fieldset>
+				<legend>Formularz</legend>
+				<label>Imię</label>
+				<input required type="search" name="imie" autocomplete="on"/><br>
+				<label>Nazwisko</label>
+				<input required type="search" name="nazwisko" autocomplete="on"/><br>
+				<label>Płeć</label>
+				<input required type="radio" name="Płeć" value="Kobieta">Kobieta
+				<input required type="radio" name="Płeć" value="Mężczyzna">Mężczyzna<br>
+				<label>Ulica</label>
+				<input required type="search" name="ulica" autocomplete="on"/><br>
+				<label>Kod pocztowy</label>
+				<input required type="search" maxlength="6" pattern="^[0-9]{2}-[0-9]{3}$" placeholder="XX-XXX" title="Cyfry w postaci XX-XXX"/><br>
+				<label>Województwo</label> 
+				<select name="Województwo">
+				<option>Warmińsko-Mazurskie</option>
+				<option>Zachodniopomorskie</option>
+				<option>Pomorskie</option>
+				<option>Kujawsko-Pomorskie</option>
+				<option>Lubelskie</option>
+				<option>Dolnośląskie</option>
+				<option>Lubuskie</option>
+				<option>Małopolskie</option>
+				<option>Mazowieckie</option>
+				<option>Łódzkie</option>
+				<option>Opolskie</option>
+				<option>Podkarpackie</option>
+				<option>Świętokrzyskie</option>
+				<option>Podlaskie</option>
+				<option>Śląskie</option>
+				<option>Wielkopolskie</option>
+				</select><br>
+				<label>Znajmość języków obcych</label>
+				<input type="checkbox" name="Języki obce" value="Angielski">Angielski
+				<input type="checkbox" name="Języki obce" value="Niemiecki">Niemiecki
+				<input type="checkbox" name="Języki obce" value="Polski" checked="checked">Polski
+				<input type="checkbox" name="Języki obce" value="Inna">Inny:
+				<input name="Języki obce"><br>
+				<label>Strona internetowa</label>
+				<input required type="url" placeholder="https://adres_strony.pl" name="Strona Internetowa"><br>
+				<label>Numer telefonu</label>
+				<input required type="search" name="Numer telefonu" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="XXX-XXX-XXX" title="Dziewięć cyfr w formacie XXX-XXX-XXX"><br>
+				<label>Hasło</label>
+				<input required type="password" name="Hasło"><br>
+				<label>Powtórz hasło</label>
+				<input required type="password" name="Powtórz hasło"><br>
+				<label>Komentarz</label><br>
+				<textarea name="treść" rows="8" cols="50"></textarea><br>
+				<label>Data</label>
+				<input required type="date" name="data"><br>
+				<label>Ocena klienta</label>
+				<input required type="range" min="0" max="10" step="1" value="7"><br>
+				<label>Plik tekstowy</label>
+				<input required type="file" name="Plik tekstowy"><br>
+				<label>Kolor</label>
+				<input required type="color" name="Kolor">
+			<button type="submit">Wyślij</button> <button type="reset">Anuluj</button>
+	</body>
+	</html>

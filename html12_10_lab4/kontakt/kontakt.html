@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <meta name="description" content="Zadanie na laboratoria">
+    <meta name="author" content="232948">
+    <meta name="language" content="pl">
+</head>
+<body>
+    <h2>Formularz kontaktowy:</h2>
+        
+        <form method="post" action="mailto:232948@stud.usz.edu.pl">
+            <input type="hidden" name="subject" value="Temat wiadomości">
+            <input type="hidden" name="to" value="twój@adresemail.pl">
+            <fieldset>
+            <legend>Napisz do mnie!</legend> 
+            <div><label for="name">Imię i nazwisko</label></div>
+            <div><input type="text" name="name"/></div>
+            <div><label for="phone">Numer telefonu</label></div>
+            <div><input type="text" name="phone"/></div>
+            <div><label for="email">Adres email</label></div>
+            <div><input type="text" name="email"/></div>
+            <div><label for="message">Treść wiadomości</label></div>
+            <div><textarea name="message"></textarea></div>
+            <button type="sumbit">Wyślij</button>
+            </fieldset>
+    </form>
+
+    <p><a href="/html12_10_lab4/lab4_zad2.html">Wróć do góry</a></p> 
+</body>
+</html>

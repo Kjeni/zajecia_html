@@ -1,0 +1,58 @@
+body{
+    background-color: #615C5C;
+    color: rgb(180, 136, 25);
+}
+fieldset{
+    width: 650px;
+}
+div#tekst{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fieldset{
+   margin-left: auto;
+   margin-right: auto;
+   width: 650px; 
+}
+#odstep{
+    padding-top: 100px;
+}
+div#menu{
+    border-top: 5px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    border-left: none;
+    border-right: none;
+    min-width: 800px;
+    max-width: 1500px;
+    margin-left: auto;
+        width: 1200px;
+        margin-top: -8em;
+}
+#logo{
+    height: 180px;
+    display: block;
+    margin-right: auto;
+    text-indent: auto;
+}
+ol.horizontal-list li{
+    display: inline-block;
+    float: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ol{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+    max-width: 9000px;
+    text-align: center;
+    color: goldenrod;
+}
+a{
+    color: goldenrod;
+}
+a::after{
+color: goldenrod;
+}
