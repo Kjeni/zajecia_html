@@ -1,6 +1,6 @@
 #1
-a = 2
-b = 4
+a = 69
+b = 69
 c= a+b
 d = a**b
 print(c,d)
